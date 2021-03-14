@@ -78,7 +78,6 @@
     "webpack-cli": "4.5.0"
   },
   "scripts": {
-    "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
     "docs": "remark . --output",
