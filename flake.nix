@@ -2,7 +2,8 @@
     utils.mkShell
       ({ pkgs, ... }: with pkgs;
         { buildInputs =
-            [ nodePackages.node2nix
+            [ (nodejs.override { enableNpm = false; })
+              nodePackages.node2nix
               nodePackages.npm
             ];
 
