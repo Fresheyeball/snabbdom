@@ -26,7 +26,6 @@
     "jsxFactory": "jsx"
   },
   "files": [
-    "benchmark/core.ts",
     "unit/attachto.ts",
     "unit/attributes.ts",
     "unit/core.ts",
